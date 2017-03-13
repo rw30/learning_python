@@ -1,4 +1,4 @@
-## dupa dupa dupa 
+## dupa dupa dupa
 import smtplib
 from  datetime import date, timedelta
 import urllib.request
@@ -79,7 +79,7 @@ print (*resultsFormatted, sep="\n")
 print ('\n\n\n')
 
 ### MAIL CONTENT:
-recipients=["karol.kanicki@gmail.com", "inigo.hernaez@clearpeaks.com"]
+recipients=["karol.kanicki@gmail.com"]#, "inigo.hernaez@clearpeaks.com"]
 sender="cp.redmine.test@gmail.com"
 subject = "NBA Results "
 content =  ''.join(resultsFormatted)
